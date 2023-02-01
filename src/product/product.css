@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    background-color: aqua;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    margin-block-start: 0px;
+}
+input{
+    margin-left: 20px;
+    position: fixed;
+    top: 50px;
+}
+.products-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.products-div>div{
+    width: 25%;
+    height: 30vh;
+    margin: 10px;
+}
+.products-div>div>img{
+   width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px
+}
+.pagination>button{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(93, 93, 198);
+}
+.pagination>button:active{
+    background-color: rgb(197, 196, 196);
+    transition: 500ms;
+}
+.pagination>span{
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 1.3rem;
+}
+
+.popup{
+    
+  
+    display: flex;
+
+    background-color: white;
+}
+.popup>div{
+    width: 80%;
+    margin: 10px;
+}
+.popup>div>img{
+    width: 100%;
+}
